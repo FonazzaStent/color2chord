@@ -1,4 +1,4 @@
-Color to Chord 1.2.0
+Color to Chord 1.2.1
 
 The program will convert colors to chords.
 
