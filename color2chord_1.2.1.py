@@ -393,7 +393,7 @@ def generate_chord(R,G,B):
     g=G/255
     b=B/255
     H,L,S=colorsys.rgb_to_hls(r, g, b)
-    H=H*239
+    H=int(H*239)
     if H<=239 and H>=228:
         Hvalue=0
     if H<=227 and H>=217:
